@@ -1,0 +1,557 @@
+/* -----------иконки header------------- */
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Avenir, sans-serif;
+    margin: 0;
+    counter-reset: list;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* обвертка для header и slider */
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    max-width: 1249px;
+    display: block;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+/* --------------------section HEADER---------------------- */
+
+.header {
+    background-color: #ffffff;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px 0 24px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+.nav__link, .nav__link--red {
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 8%;
+}
+
+.nav__link--red {
+    color: rgba(201, 50, 50, 0.87);
+}
+
+.nav__link:hover, .nav__link--red:hover {
+    text-decoration: underline;
+    text-shadow: 0px 0px 1px rgb(175, 175, 175);
+
+}
+
+.button:hover, .button--white:hover {
+    text-shadow: 0px 0px 2px #c9dbf8;
+}
+
+.button:hover {
+    background-color: rgba(87, 133, 208, 0.8);
+    text-shadow: 0px 0px 2px #c9dbf8;
+}
+
+.header__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 4px;
+    background-color: #5785d0;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Avenir;
+    border-style: none;
+    margin-right: 16px;
+    padding: 8px 24px 6px 24px;
+}
+
+.button--white {
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 4px;
+    border: solid 1px #5785d0;
+    background-color: #ffffff;
+    color: #5785d0; 
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Avenir;
+    padding: 8px 24.5px 6px 24.5px;
+}
+
+/*------------------------------ section SLIDER-------------------------- */
+
+.slider {
+    background: url(image/bitmap1.jpg) no-repeat;
+    background-size: cover;
+    flex: 1;
+    margin: 0px;
+}
+
+.slider__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.slider__inner {
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-size: 42px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.text {
+    width: 87%;
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 54px;
+}
+
+.slider__button {
+    width: 212px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #5aa947;
+    border-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Avenir;
+}
+
+.slider__button:hover {
+    text-shadow: 0px 0px 2px #c9dbf8;
+    background-color: rgba(118, 190, 101, 1);
+}
+
+/* ---------------------------------slider__menu----------------------------- */
+
+.slider__menu {
+    display: flex;
+    margin-bottom: 48px;
+}
+
+.slider__navigation {
+    width: 62px;
+    height: 62px; 
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-right: 24px;
+    transition: all .3s ease;
+}
+
+.icons__image--slider {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+    transition: all .3s ease;
+}
+
+.slider__navigation:hover,
+.slider__navigation.active {
+    border: solid 1px rgba(255, 255, 255, 0.5);
+}
+
+.slider__navigation.active .icons__image--slider,
+.icons__image--slider:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* ------------------------------------section SERVICES--------------------------------- */
+
+.services {
+    background-color: #fafafa;
+    padding-top: 64px;
+}
+
+.services__title {
+    font-size: 48px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Avenir;
+    color: #53a495;
+    margin: 0;
+}
+
+.services__blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    margin-left: 48px;
+}
+
+.block {
+    width: 24%;
+    height: 294px;
+    border-radius: 8px;
+    background-color: #fafafa;
+    border: solid 2px #ececec;
+    position: relative;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.arrow__block {
+    width: 24%;
+    height: 294px;
+    background-color: #fafafa;
+    border: none;
+    position: relative;
+    margin-right: 50px;
+    margin-bottom: 60px;
+}
+
+.block::before {
+    width: 74px;
+    height: 74px;
+    background-color: #fafafa;
+    border: solid 1px #dfdfdf;
+    border-radius: 50%;
+    font-family: Avenir;
+    font-size: 42px;
+    font-weight: 100;
+    text-align: center;
+    color: #4ea29d;
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    line-height: 74px;
+    vertical-align: middle;
+    transform: translateX(-50%);
+    counter-increment: list; /* Указываем идентификатор счетчика */
+    content: counter(list);
+}
+
+.block__title {
+    font-family: Avenir;
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+    color: #53a495;
+    padding-top: 18px;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+}
+
+.block__text {
+    font-family: Avenir;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    color: #000000;
+}
+
+a.arr {
+    position: relative;
+}
+
+a.arr:after {
+    content: "\2193";
+    width: 74px;
+    height: 69px;    
+    font-size: 42px;
+    color: #4ea29d;
+    background-color: #fafafa;
+    border: solid 1px #dfdfdf;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    display: block;
+    padding-top: 3px;
+}
+
+.arrow {
+    margin: 35% 35%;
+}
+
+.block:hover {
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);
+    transition: all .3s ease;
+}
+
+.block:hover:before {
+    background-color: #4ea29d;
+    color: #fafafa;
+    transition: all .3s ease;
+}
+
+a.arr:hover:after {
+    background-color: #4ea29d;
+    color: #fafafa;
+    transition: all .3s ease;
+}
+
+/* ---------------------------SECTION about----------------------------------- */
+
+.about__inner { 
+    height: 100%;
+    margin: 64px 0 56px;
+   
+}
+
+.about__title {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: baseline;
+    margin-bottom: 16px;
+}
+
+.about__image {
+    height: auto;
+    width: 102px;
+    margin-right: 60px;
+    flex-shrink: 0;
+}
+
+.AboutTeam__chapter1 {
+    font-family: Avenir;
+    font-size: 18px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.AboutTeam__chapter2 {
+    font-family: Avenir;
+    font-size: 24px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 900;
+}
+
+.AboutTeam__chapter3 {
+    font-family: Avenir;
+    font-size: 24px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+/*--------------------SECTION benefits----------------*/
+
+.benefits {
+    background-color: #e0e7f0;
+}
+
+.benefits__container {
+    padding-top: 63px;
+}
+
+.benefits__title {
+    text-transform: uppercase;
+    font-family: Avenir;
+    font-size: 32px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+    margin-top: 0;
+    margin-bottom: 85px;
+}
+
+.benefits__blocks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin-left: 50px; 
+}
+
+.grid {
+    width: 24%;
+    height: 294px;
+    margin-right: 50px;
+}
+
+.grid__title {
+    font-family: Avenir;
+    font-size: 32px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.grid__text {
+    font-family: Avenir;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: #000000;
+}
+
+/*--------------------SECTION Footer-----------------------*/
+
+.footer {
+    background-color: #525151;
+}
+
+.footer__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+.footer__top, .footer__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer__top {
+    margin-bottom: 70px;
+}
+
+.footer__bottom {
+    margin-bottom: 62px;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    margin-left: 9.5%;
+}
+
+.social__networks {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    margin-left: 9.5%;
+}
+
+.social__networks--image {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.footer__link {
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+    margin-right: 8%;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.button__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button__footer--login {
+    border-radius: 4px;
+    border: solid 1px #ffffff;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Avenir;
+    color: #ffffff;
+    background-color: #525151;
+    padding: 8px 24.5px 6px 24.5px;
+}
+
+.button__footer--login:hover {
+    text-shadow: 0px 0px 2px #ffffff;
+}
+
+.copyright {
+    font-family: Avenir;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75)
+}
+
+.social__networks--image a {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 20.5px;
+    text-decoration: none;
+    margin-right: 8%;
+}
+
+.networks__icons:hover {
+    color: rgba(121, 121, 121, 0.4);
+}
+
+.privacy_and_terms {
+    font-family: Avenir;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.hamburger {
+    display: none;
+}

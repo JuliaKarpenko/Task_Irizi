@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Avenir;
+    src: url('font/Avenir/Avenir-Medium.ttf'),
+    url('font/Avenir/Avenir-Medium.woff') format('woff'),
+    url('font/Avenir/Avenir-Book.woff') format('woff'),
+    url('font/Avenir/Avenir-Heavy.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('/fontello.eot?78175932');
+    src: url('font/icons/fontello.eot?78175932#iefix') format('embedded-opentype'),
+    url('font/icons/fontello.woff2?78175932') format('woff2'),
+    url('font/icons/fontello.woff?78175932') format('woff'),
+    url('font/icons/fontello.ttf?78175932') format('truetype'),
+    url('font/icons/fontello.svg?78175932#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?78175932#fontello') format('svg');
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('font/icons/font2/fontello.eot?65112545');
+    src: url('font/icons/font2/fontello.eot?65112545#iefix') format('embedded-opentype'),
+    url('font/icons/font2/fontello.woff2?65112545') format('woff2'),
+    url('font/icons/font2/fontello.woff?65112545') format('woff'),
+    url('font/icons/font2/fontello.ttf?65112545') format('truetype'),
+    url('font/icons/font2/fontello.svg?65112545#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+}
+
+.icon-shape:before {
+    content: '\e800';
+}
+
+.icon-shape_1:before {
+    content: '\e801';
+}
+
+.icon-shape_2:before {
+    content: '\e802';
+}
+
+.icon-shape_3:before {
+    content: '\e803';
+}
+
+.icon-shape_4:before {
+    content: '\e804';
+}
+
+.icon-shape_5:before {
+    content: '\e805';
+}
+
+/* -----------иконки footer------------- */
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+.icon-rss:before {
+    content: '\f09e';
+}
+
+.icon-youtube-play:before {
+    content: '\f16a';
+}
+
+.icon-twitter:before {
+    content: '\f309';
+}
+
+.icon-facebook:before {
+    content: '\f30c';
+}
+
+.icon-gplus:before {
+    content: '\f30f';
+}
+
+.icon-linkedin:before {
+    content: '\f318';
+}

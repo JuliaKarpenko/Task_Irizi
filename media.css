@@ -1,0 +1,780 @@
+/* ==================================================================================================================================================== */
+/*  ===================================================================max-width: 900px============================================================== */
+/* ========================================================================================================================== */
+/* =================================================================================================================================================== */
+
+@media only screen
+and (max-width: 900px)
+and (orientation: portrait) {
+
+ /* -----------------------------------------------section HEADER------------------------------------ */
+
+    .header__buttons, .nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        width: 31px;
+        height: 16px;
+    }
+
+    .hamburger__line {
+        height: 6px;
+        background: #000000;
+        border-radius: 9px;
+        margin-bottom: 2px;
+    }
+
+    .hamburger__line:nth-child(1) {
+        top: 0px;
+    }
+
+    .hamburger__line:nth-child(2), .hamburger__line:nth-child(3) {
+        top: 13px;
+    }
+
+    .hamburger__line:nth-child(4) {
+        top: 26px;
+    }
+
+    .nav.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: fixed;
+        top: 100px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        padding-top: 75px;
+        box-sizing: border-box;
+    }
+
+    .header__inner {
+        position: fixed;
+        top: 0px;
+        right: 0;
+        z-index: 1;
+        left: 0;
+        background-color: #fff;
+        box-sizing: border-box;
+    }
+
+    .nav__link, .nav__link--red {
+        padding-bottom: 60px;
+        margin-right: 0;
+        font-size: 23px;
+    }
+
+ /* -----------------------------------------section slider--------------------------------------- */
+
+    .slider {
+        background-position: top right;
+    }
+
+    .slider__content {
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    .title {
+        font-size: 41px;
+        text-align: center;
+    }
+
+    .text {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 34px;
+    }
+
+ /* ----------------------------------------section SERVICES------------------------------------------- */
+
+    .services {
+        padding-bottom: 0px;
+    }
+
+    .services__blocks {
+        margin-left: 48px;
+    }
+
+    .slider__menu {
+        justify-content: center;
+    }
+
+    .block, .arrow__block {
+        justify-content: center;
+        flex: 1 200px;
+        height: 251px;
+    }
+
+    .services__title {
+        font-size: 44px;
+    }
+
+    .arrow {
+        margin: 25% 35%;
+    }
+
+    /* ------------------------------------section VIDEO--------------------------------- */
+
+    .video {
+        height: 450px;
+    }
+
+    /* ---------------------------SECTION about----------------------------------- */
+
+    .about__image {
+        margin-bottom: 24px;
+        margin-right: 0px;
+    }
+
+    .about__title {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .AboutTeam__chapter1, .AboutTeam__chapter2, .AboutTeam__chapter3 {
+        text-align: center;
+    }
+
+    /* ------------------------------------section benefits--------------------------------- */
+
+    .benefits__blocks {
+        margin-left: 67px;
+    }
+
+    .grid {
+        height: 216px;
+        flex: 1 250px;
+    }
+
+    .grid__title {
+        font-size: 29px;
+    }
+
+    /* ------------------------------------section FOOTER--------------------------------- */
+
+    .footer__nav, .button__footer {
+        display: none;
+    }
+
+    .footer__bottom {
+        padding-left: 67px;
+        padding-right: 67px;
+
+    }
+
+    .footer__top {
+        margin-bottom: 16px;
+    }
+
+    .footer__inner {
+        padding-bottom: 0px;
+    }
+
+    .social__networks--image {
+        flex-wrap: wrap;
+        padding-top: 5px;
+    }
+
+    .networks__icons {
+        flex: 1 90px;
+        margin-right: 0;
+    }
+
+    .social__networks--image a {
+        padding-top: 5px;
+        margin-right: 0;
+    }
+}
+
+/* ==================================================================================================================================================== */
+/*  ===================================================================max-width: 680px============================================================== */
+/* =================================================================================================================================================== */
+/* =================================================================================================================================================== */
+
+
+@media only screen
+and (max-width: 680px)
+and (orientation: portrait) {
+
+/* --------------------------------------------------------section header--------------------------------------------------------------- */
+
+    .nav.active {
+        margin-top: -24px;
+    }
+
+    .header__inner {
+        padding: 18px 0 7px;
+    }
+
+    .header__logo--img {
+        width: 143px;
+        height: auto;
+    }
+
+    .title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .text {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 34px;
+    }
+
+    .nav__link, .nav__link--red {
+        font-size: 16px;
+    }
+/* -----------------------section slider----------------------------- */  
+
+    .slider__button {
+        width: 144px;
+        height: 39px;
+        font-size: 12px;
+    }
+
+    .slider {
+        background-position: right center;
+    }
+
+    .slider__menu {
+        width: 200px;
+        flex-wrap: wrap;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 0;
+
+    }
+ 
+    .slider__navigation {
+        width: 45px;
+        height: 49px;
+        margin-right: 17px;
+        margin-bottom: 17px;
+        flex: 1 49px;
+    }
+
+    .icons__image--slider {
+        font-size: 26px;
+    }
+
+
+    /* ------------------------------section SERVICES------------------------- */
+
+    .services__title {
+        font-size: 30px;
+    }
+
+    .block, .arrow__block {
+        height: 250px;
+    }
+
+    .block__title {
+        font-size: 18px;
+    }
+
+    .arrow {
+        margin-top: 0;
+    }
+
+    .arrow__block {
+        margin-bottom: 0;
+    }
+
+    /* --------------------------------section VIDEO-------------------------- */
+
+    .video {
+        height: 212px;
+    }
+
+    /* ---------------------------SECTION about--------------------------------- */
+
+    .about__inner {
+        margin: 20px 0 30px;
+    }
+
+    .AboutTeam__chapter1 {
+        font-size: 14px;
+        margin: auto 67px;
+    }
+
+    .AboutTeam__chapter2 {
+        font-size: 21px;
+    }
+
+    .AboutTeam__chapter3 {
+        font-size: 19px;
+    }
+
+    .about__image {
+        width: 78px;
+    }
+
+    /* --------------------------------section benefits------------------------- */
+
+    .benefits__container {
+        padding-top: 44px;
+    }
+
+    .benefits__title {
+        font-size: 28px;
+        margin-bottom: 22px;
+    }
+
+    .grid {
+        height: auto;
+        margin-bottom: 34px;
+    }
+
+    .grid__title {
+        font-size: 24px;
+    }
+
+    .grid__text {
+        font-size: 13px;
+    }
+
+    /*-----------------------------section FOOTER--------------------------- */
+    .footer__inner {
+        padding-top: 21px;
+    }
+
+    .footer__bottom {
+        margin-bottom: 22px;
+        flex-direction: column;
+        padding: 0
+    }
+
+    .copyright {
+        font-size: 6px;
+    }
+
+    .social__networks--image a {
+        flex: 1 32px;
+        margin-right: 20px;
+        font-size: 11px;
+        padding-top: 0;
+    }
+
+    .privacy_and_terms {
+        font-size: 7px;
+
+    }
+
+    .footer__logo--img {
+        width: 123px;
+        height: auto;
+    }
+
+    .social__networks--image {
+        flex-wrap: nowrap;
+        padding-top: 0px;
+        display: block;
+    }
+
+    .social__networks {
+        margin-left: 0;
+        display: block;
+        flex: none;
+    }
+}
+
+/* ==================================================================================================================================================== */
+/*  ===================================================================max-width: 900px============================================================== */
+/* =================================================================orientation: landscape=========================================================== */
+/* =================================================================================================================================================== */
+
+
+@media only screen
+and (max-width: 900px)
+and (orientation: landscape) {
+
+/* --------------------------------------section header------------------------------- */
+
+    .header__buttons, .nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        width: 31px;
+        height: 16px;
+    }
+
+    .hamburger__line {
+        height: 6px;
+        background: #000000;
+        border-radius: 9px;
+        margin-bottom: 2px;
+    }
+
+    .hamburger__line:nth-child(1) {
+        top: 0px;
+    }
+
+    .hamburger__line:nth-child(2), .hamburger__line:nth-child(3) {
+        top: 13px;
+    }
+
+    .hamburger__line:nth-child(4) {
+        top: 26px;
+    }
+
+    .nav.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: fixed;
+        top: 66px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        padding-top: 75px;
+        box-sizing: border-box;
+        overflow: scroll;
+    }
+
+    .header__inner {
+        position: fixed;
+        top: 0px;
+        right: 0;
+        z-index: 1;
+        left: 0;
+        background-color: #fff;
+        box-sizing: border-box;
+        padding: 15px 0 11px;
+    }
+
+    .nav__link, .nav__link--red {
+        padding-bottom: 60px;
+        margin-right: 0;
+        font-size: 23px;
+    }
+
+
+/* ------------------------------------section slider--------------------------------- */
+
+    .slider {
+        background-position: right center;
+    }
+
+    .slider__menu {
+        margin-bottom: 48px;
+    }
+
+    .icons__image--slider {
+        font-size: 18px;
+    }
+
+    .slider__navigation {
+        width: 32px;
+        height: 32px;
+    }
+
+    .slider__content {
+        padding-top: 100px;
+    }
+
+    .slider__button {
+        width: 219px;
+        height: 47px;
+        font-size: 17px;
+    }
+
+    .text {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .title {
+        font-size: 46px;
+    }
+
+/* -------------------------------------------section services-------------------------------------------------- */
+
+    .services__title {
+        font-size: 31px;
+    }
+
+    .slider__navigation {
+        width: 57px;
+        height: 56px;
+    }
+
+    .icons__image--slider {
+        font-size: 33px;
+    }
+}
+/* ====================================================================================================================================================== */
+/*  ===================================================================max-width: 568px================================================================== */
+/* ==================================================================orientation: landscape============================================================== */
+/* ====================================================================================================================================================== */
+
+@media only screen
+and (max-width: 583px)
+and (orientation: landscape) {
+
+/* --------------------------------------------------------section header--------------------------------------------------------------- */
+    
+    .wrapper {
+        height: auto;
+    }
+
+    .header__buttons, .nav, .footer__nav, .button__footer {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        width: 31px;
+        height: 16px;
+    }
+
+    .hamburger__line {
+        height: 6px;
+        background: #000000;
+        border-radius: 9px;
+        margin-bottom: 2px;
+    }
+
+    .hamburger__line:nth-child(1) {
+        top: 0px;
+    }
+
+    .hamburger__line:nth-child(2), .hamburger__line:nth-child(3) {
+        top: 13px;
+    }
+
+    .hamburger__line:nth-child(4) {
+        top: 26px;
+    }
+
+    .nav.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: fixed;
+        top: 70px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        padding-top: 75px;
+        overflow: scroll;
+    }
+
+    .header__inner {
+        position: fixed;
+        top: 0px;
+        right: 0;
+        z-index: 1;
+        left: 0;
+        background-color: #fff;
+    }
+
+/* -----------------------------------------section slider---------------------------------------- */
+
+    .slider {
+        background-position: top right;
+        margin-top: 47px;
+        min-height: 394px;
+    }
+
+    .slider__content {
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 18px;
+    }
+
+    .title {
+        font-size: 37px;
+        text-align: center;
+    }
+
+    .text {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 34px;
+    }
+
+    .slider__button {
+        width: 181px;
+        height: 37px;
+        font-size: 15px;
+    }
+
+    .slider__navigation {
+        width: 50px;
+        height: 49px;
+    }
+
+    .slider__menu{
+       justify-content: center;
+    }
+
+    .icons__image--slider {
+        font-size: 25px;
+    }
+/* ----------------------------------------section services-------------------------------------------- */
+
+    .services {
+        padding-bottom: 0px;
+    }
+
+    .block, .arrow__block {
+        width: 38%;
+    }
+
+    .block__title {
+        font-size: 17px;
+    }
+
+    .block__text {
+        font-size: 14px;
+    }
+
+    .arrow__block {
+        margin-bottom: 0;
+    }
+
+/* ----------------------------------------------section video------------------------------------ */
+
+    .video {
+        height: 252px;
+    }
+
+/* ----------------------------------------------section about----------------------------------- */
+
+    .about__inner {
+        margin: 64px 30px 56px;
+    }
+
+    .about__image {
+        width: 82px;
+    }
+
+/* -----------------------------------------section benefits--------------------------------- */
+
+    .benefits__title {
+        margin-bottom: 15px;
+    }
+
+    .benefits__container {
+        margin-left: 15px;
+        padding-top: 28px;
+    }
+
+    .grid__title {
+        font-size: 27px;
+    }
+
+    .grid__text {
+        font-size: 15px;
+    }
+
+    .grid {
+        width: 48%;
+        height: 196px;
+        margin-right: 10px;
+    }
+
+/* -----------------------------------------section footer------------------------------- */
+
+    .footer__logo--img {
+        width: 180px;
+        height: auto;
+    }
+
+    .social__networks {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .footer__bottom {
+        flex-direction: column;
+    }
+
+    .social__networks--image {
+        justify-content: center;
+    }
+
+    .copyright {
+        margin-bottom: 16px;
+    }
+}
+
+/* ================================================================================================================================== */
+/*  ================================================================================================================================= */
+/* ================================================================================================================================== */
+/* ================================================================================================================================= */
+
+@media only screen
+and (max-width: 814px)
+and (min-width: 583px) {
+
+    .title {
+        font-size: 46px;
+        text-align: center;
+    }
+
+    .slider__content {
+        align-items: center;
+    }
+
+    .text {
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 34px;
+    }
+
+    .slider__button {
+        width: 189px;
+        height: 44px;
+        font-size: 17px;
+    }
+
+    .slider__navigation {
+        width: 72px;
+        height: 61px;
+    }
+
+    .slider__menu{
+       justify-content: center;
+    }
+
+    .icons__image--slider {
+        font-size: 28px;
+    }
+
+    .slider {
+        background-position: right center;
+    }
+
+    .block, .arrow__block{
+        width: 40%;
+    }
+
+    .arrow__block {
+        margin-bottom: 0;  
+    }
+
+    .grid{
+        width: 40%;
+    }
+
+    .footer__nav, .button__footer {
+        display: none;
+    }
+}
+
